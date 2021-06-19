@@ -2,14 +2,10 @@ import React, { useEffect } from "react";
 import "./home.css";
 import news from "../../newsimg.jpg";
 import { Button } from "react-bootstrap";
+import alanBtn from "@alan-ai/alan-sdk-web";
+import wordsToNumbers from "words-to-numbers";
 
 const Home = () => {
-  //   useEffect(() => {
-  //     alert(
-  //       "Please click the voice button on the bottom right to start using the application "
-  //     );
-  //   });
-
   return (
     <div className="container">
       <div
