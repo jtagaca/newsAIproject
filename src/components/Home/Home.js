@@ -54,7 +54,7 @@ const Home = () => {
             style={{ backgroundColor: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
-            <p className="inst">Give me the latest news</p>
+            <p className="inst">Show the latest news</p>
           </div>
         </div>
         <div className="col-sm-3" style={{ marginLeft: "0px" }}>
@@ -63,7 +63,7 @@ const Home = () => {
             style={{ backgroundColor: "white", color: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
-            <p className="inst">Give me the news from CNN</p>
+            <p className="inst">Show me technology news</p>
           </div>
         </div>
         <div className="col-sm-3">
@@ -72,7 +72,7 @@ const Home = () => {
             style={{ backgroundColor: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
-            <p className="inst">Give me the latest Sports news</p>
+            <p className="inst">Show me sports news</p>
           </div>
         </div>
         <div className="col-sm-3">
@@ -80,8 +80,9 @@ const Home = () => {
             className="card card1 center"
             style={{ backgroundColor: "white", color: "black" }}
           >
-            <h4 className="publish1">Try Saying:</h4>
-            <p className="inst">What's up with Bitcoin</p>
+            <h4 className="publish1">Use your imagination</h4>
+            <p className="inst">"Give me ..."</p>
+            <p className="inst">"Show the ..."</p>
           </div>
         </div>
       </div>
