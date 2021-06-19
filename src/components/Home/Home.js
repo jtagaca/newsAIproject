@@ -33,7 +33,7 @@ const Home = () => {
           className="btn2"
           onClick={() => {
             alert(
-              "Please click the voice button on the bottom right to start using the application "
+              "Please click the voice button on the bottom right to enable voice and start one of the suggestions below😃 . "
             );
           }}
         >
