@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./home.css";
 import news from "../../newsimg.jpg";
 import { Button } from "react-bootstrap";
@@ -6,6 +6,11 @@ import alanBtn from "@alan-ai/alan-sdk-web";
 import wordsToNumbers from "words-to-numbers";
 
 const Home = () => {
+  const [command, setcommand] = useState("");
+  const handleCommand = (e) => {
+    setcommand(e);
+    // alanBtn.playText("hello");
+  };
   return (
     <div className="container">
       <div
@@ -38,7 +43,12 @@ const Home = () => {
         </Button>
       </div>
       <div className="row no-gutters mx-auto">
-        <div className="col-sm-3 ">
+        <div
+          onClick={() => {
+            handleCommand("Give me the latest news");
+          }}
+          className="col-sm-3 "
+        >
           <div
             className="card card1 center"
             style={{ backgroundColor: "black" }}
