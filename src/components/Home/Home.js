@@ -44,7 +44,7 @@ const Home = () => {
         <div className="col-sm-3 ">
           <div
             className="card card1 center"
-            style={{ backgroundColor: "#394989" }}
+            style={{ backgroundColor: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">Give me the latest news</p>
@@ -53,7 +53,7 @@ const Home = () => {
         <div className="col-sm-3" style={{ marginLeft: "0px" }}>
           <div
             className="card card1 center"
-            style={{ backgroundColor: "#3b6978" }}
+            style={{ backgroundColor: "white", color: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">Give me the news from CNN</p>
@@ -62,7 +62,7 @@ const Home = () => {
         <div className="col-sm-3">
           <div
             className="card card1 center"
-            style={{ backgroundColor: "#111d5e" }}
+            style={{ backgroundColor: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">Give me the latest Sports news</p>
@@ -71,7 +71,7 @@ const Home = () => {
         <div className="col-sm-3">
           <div
             className="card card1 center"
-            style={{ backgroundColor: "#654062" }}
+            style={{ backgroundColor: "white", color: "black" }}
           >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">What's up with Bitcoin</p>
