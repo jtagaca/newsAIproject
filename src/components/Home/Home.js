@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.css";
 import news from "../../newsimg.jpg";
+import { Button } from "react-bootstrap";
 
 const Home = () => {
+  //   useEffect(() => {
+  //     alert(
+  //       "Please click the voice button on the bottom right to start using the application "
+  //     );
+  //   });
+
   return (
     <div className="container">
       <div
@@ -20,51 +27,52 @@ const Home = () => {
           </h1>
         </div>
       </div>
+
+      <div className="center">
+        <Button
+          className="btn2"
+          onClick={() => {
+            alert(
+              "Please click the voice button on the bottom right to start using the application "
+            );
+          }}
+        >
+          Intructions
+        </Button>
+      </div>
       <div className="row no-gutters mx-auto">
-        <div className="col-sm-3">
-          <div className="card card1" style={{ backgroundColor: "#394989" }}>
-            <div className="card-body body1">
-              <p className="card-title title1">Latest News</p>
-            </div>
+        <div className="col-sm-3 ">
+          <div
+            className="card card1 center"
+            style={{ backgroundColor: "#394989" }}
+          >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">Give me the latest news</p>
           </div>
         </div>
         <div className="col-sm-3" style={{ marginLeft: "0px" }}>
-          <div className="card card1" style={{ backgroundColor: "#3b6978" }}>
-            <div className="card-body">
-              <h4 className="card-title title1">News by Sources</h4>
-              <div className="card-text text1">
-                <p className="para">Sources:</p>
-                <p>CNN,BBC News,Wired,Buzzfeed...</p>
-              </div>
-            </div>
+          <div
+            className="card card1 center"
+            style={{ backgroundColor: "#3b6978" }}
+          >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">Give me the news from CNN</p>
           </div>
         </div>
         <div className="col-sm-3">
-          <div className="card card1" style={{ backgroundColor: "#111d5e" }}>
-            <div className="card-body body1">
-              <h4 className="card-title title1">News by Categories</h4>
-              <div className="card-text text1">
-                <p className="para">Categories:</p>
-                <p>Business,Entertainment,Sports,General,Health,Science</p>
-              </div>
-            </div>
+          <div
+            className="card card1 center"
+            style={{ backgroundColor: "#111d5e" }}
+          >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">Give me the latest Sports news</p>
           </div>
         </div>
         <div className="col-sm-3">
-          <div className="card card1" style={{ backgroundColor: "#654062" }}>
-            <div className="card-body body1">
-              <h4 className="card-title title1">News by Terms</h4>
-              <div className="card-text text1">
-                <p className="para">Terms:</p>
-                <p>Bitcoin,PlayStation,Smartphones...</p>
-              </div>
-            </div>
+          <div
+            className="card card1 center"
+            style={{ backgroundColor: "#654062" }}
+          >
             <h4 className="publish1">Try Saying:</h4>
             <p className="inst">What's up with Bitcoin</p>
           </div>
