@@ -2,10 +2,9 @@
   height: 100vh;
 }
 
-
 body {
   margin: 0;
-  background-color: whitesmoke;
+  background-color: lightblue;
 }
 
 * {
@@ -14,4 +13,6 @@ body {
 
 html {
   scroll-behavior: smooth;
+  background: lightblue;
+  font-family: -webkit-body;
 }
