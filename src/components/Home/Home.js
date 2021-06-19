@@ -12,9 +12,12 @@ const Home = () => {
           marginTop: "50px",
           marginBottom: "60px",
         }}
+        className="center centercolor"
       >
-        <div className=" container center">
-          <h1 style={{ margin: 20 }}>AI NEWS</h1>
+        <div className=" container ">
+          <h1 style={{ fontSize: "40px" }} style={{ margin: 20 }}>
+            AI NEWS
+          </h1>
         </div>
       </div>
       <div className="row no-gutters mx-auto">
