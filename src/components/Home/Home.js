@@ -36,6 +36,7 @@ const Home = () => {
               "Please click the voice button on the bottom right to enable voice and start one of the suggestions below😃 . "
             );
           }}
+          variant="dark"
         >
           Intructions
         </Button>
