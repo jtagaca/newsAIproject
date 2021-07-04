@@ -1,22 +1,23 @@
 ## About
-Sorting is a web-based application that allows users to visualize the most common sorting algorithm in computer science.
+AI News is an artificial intelligence-based application that enables users to converse verbally and search for news information.
 
 ## Context
-This was a personal project built with React.JS and deployed using Github Pages. The application allows users to visualize sorting algorithms and perform additional actions such as being able to choose the speed of the sorting and have a button for sounds. This project was tough to build, but with many youtube tutorials and learning, it can be done!
+This was a personal project built with React.JS and deployed using Heroku. The application makes use of an API called Alan AI, which enables the creation of predefined capabilities for voice recognition. Additionally, the program makes use of the bootstrap and material design libraries to allow quicker UI development. The challenge with this application was that it was my first AI-based online application, and thus I needed to study up on the fundamentals of implementing certain functionalities. I primarily learned it via viewing online tutorials and forums, as well as by reading the Alan Ai documentation.
+
 <img 
-      src="/public/1sort.png" 
+      src="/public/1ai.png" 
       height=200px 
    />
 
 <img 
-      src="/public/2sort.png" 
+      src="/public/2ai.png" 
       height=200px 
    />
    <img 
-      src="/public/3sort.png" 
+      src="/public/3ai.png" 
       height=200px 
    />
    <img 
-      src="/public/4sort.png" 
+      src="/public/4ai.png" 
       height=200px 
    />
